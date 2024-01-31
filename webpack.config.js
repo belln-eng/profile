@@ -31,6 +31,18 @@ module.exports = {
         test: /\.css$/,
         use: ['style-loader', 'css-loader', 'postcss-loader'],
       },
+      {
+        test: /\.(png|jpe?g|gif|JPG)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'images/[name].[ext]', // 出力されるファイル名の設定
+              publicPath: 'images/', // 画像ファイルへのパスの設定
+            },
+          },
+        ],
+      },
     ],
   },
   resolve: {

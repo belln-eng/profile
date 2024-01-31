@@ -1,0 +1,20 @@
+import React from 'react';
+import styled from 'styled-components';
+
+const CustomNavigator = styled.nav`
+  width: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+`;
+
+export const Navigator = () => {
+  return (
+    <CustomNavigator>
+      <button className="btn btn-square btn-ghost">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+      </button>
+    </CustomNavigator>
+  )
+};
