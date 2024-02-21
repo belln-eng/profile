@@ -82,7 +82,7 @@ eval("\n\nvar __makeTemplateObject = this && this.__makeTemplateObject || functi
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar __importDefault = this && this.__importDefault || function (mod) {\n  return mod && mod.__esModule ? mod : {\n    \"default\": mod\n  };\n};\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nvar client_1 = __importDefault(__webpack_require__(/*! react-dom/client */ \"./node_modules/react-dom/client.js\"));\n__webpack_require__(/*! ./css/index.css */ \"./src/css/index.css\");\nvar App_1 = __importDefault(__webpack_require__(/*! ./App */ \"./src/App.tsx\"));\nvar reportWebVitals_1 = __importDefault(__webpack_require__(/*! ./reportWebVitals */ \"./src/reportWebVitals.ts\"));\n__webpack_require__(/*! google-fonts */ \"./node_modules/google-fonts/index.js\");\nvar root = client_1.default.createRoot(document.getElementById('root'));\nroot.render(\n// <React.StrictMode>\nreact_1.default.createElement(App_1.default, null));\n// If you want to start measuring performance in your app, pass a function\n// to log results (for example: reportWebVitals(console.log))\n// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals\n(0, reportWebVitals_1.default)();\n\n//# sourceURL=webpack://profile/./src/index.tsx?");
+eval("\n\nvar __importDefault = this && this.__importDefault || function (mod) {\n  return mod && mod.__esModule ? mod : {\n    \"default\": mod\n  };\n};\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nvar client_1 = __importDefault(__webpack_require__(/*! react-dom/client */ \"./node_modules/react-dom/client.js\"));\n__webpack_require__(/*! ./css/index.css */ \"./src/css/index.css\");\nvar App_1 = __importDefault(__webpack_require__(/*! ./App */ \"./src/App.tsx\"));\nvar reportWebVitals_1 = __importDefault(__webpack_require__(/*! ./reportWebVitals */ \"./src/reportWebVitals.ts\"));\nvar root = client_1.default.createRoot(document.getElementById('root'));\nroot.render(\n// <React.StrictMode>\nreact_1.default.createElement(App_1.default, null));\n// If you want to start measuring performance in your app, pass a function\n// to log results (for example: reportWebVitals(console.log))\n// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals\n(0, reportWebVitals_1.default)();\n\n//# sourceURL=webpack://profile/./src/index.tsx?");
 
 /***/ }),
 
@@ -182,16 +182,6 @@ eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=w
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"images/main_img2.JPG\");\n\n//# sourceURL=webpack://profile/./images/main_img2.JPG?");
-
-/***/ }),
-
-/***/ "./node_modules/google-fonts/index.js":
-/*!********************************************!*\
-  !*** ./node_modules/google-fonts/index.js ***!
-  \********************************************/
-/***/ ((module) => {
-
-eval("module.exports = asString\nmodule.exports.add = append\n\nfunction asString(fonts) {\n  var href = getHref(fonts)\n  return '<link href=\"' + href + '\" rel=\"stylesheet\" type=\"text/css\">'\n}\n\nfunction asElement(fonts) {\n  var href = getHref(fonts)\n  var link = document.createElement('link')\n  link.setAttribute('href', href)\n  link.setAttribute('rel', 'stylesheet')\n  link.setAttribute('type', 'text/css')\n  return link\n}\n\nfunction getHref(fonts) {\n  var family = Object.keys(fonts).map(function(name) {\n    var details = fonts[name]\n    name = name.replace(/\\s+/g, '+')\n    return typeof details === 'boolean'\n      ? name\n      : name + ':' + makeArray(details).join(',')\n  }).join('|')\n\n  return '//fonts.googleapis.com/css?family=' + family\n}\n\nfunction append(fonts) {\n  var link = asElement(fonts)\n  document.head.appendChild(link)\n  return link\n}\n\nfunction makeArray(arr) {\n  return Array.isArray(arr) ? arr : [arr]\n}\n\n\n//# sourceURL=webpack://profile/./node_modules/google-fonts/index.js?");
 
 /***/ }),
 
