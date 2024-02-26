@@ -115,7 +115,7 @@ eval("\n\nvar __makeTemplateObject = this && this.__makeTemplateObject || functi
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar __importDefault = this && this.__importDefault || function (mod) {\n  return mod && mod.__esModule ? mod : {\n    \"default\": mod\n  };\n};\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nexports.Profile = void 0;\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nvar profList = [{\n  title: '誕生日',\n  value: '10月18日'\n}, {\n  title: '血液型',\n  value: 'O型'\n}, {\n  title: '身長',\n  value: '173cm'\n}, {\n  title: '出身地',\n  value: '静岡県'\n}, {\n  title: '方言',\n  value: '遠州弁'\n}, {\n  title: '特技',\n  value: 'Web制作、麻雀、テニス、クレーンゲーム（橋渡し）'\n}, {\n  title: '趣味・好きなこと',\n  value: '寺社巡り・御朱印集め、カメラ、登山、キャンプ、料理、古着探し、ボルダリング、バスケ、スキー、スノボー、映像作品鑑賞、モンスト、マリカー'\n}];\n// TODO: 背景追加したい（下部予定）\nvar Profile = function () {\n  return react_1.default.createElement(\"div\", {\n    className: \"flex flex-col gap-y-6\"\n  }, react_1.default.createElement(\"img\", {\n    src: \"../../images/main_img2.JPG\",\n    className: \"w-full h-auto\",\n    width: 343,\n    height: 257,\n    alt: \"\"\n  }), react_1.default.createElement(\"h3\", {\n    className: \"flex flex-col text-[1.5rem] font-semibold md:font-bold pl-2\"\n  }, \"\\u5800 \\u771F\\u54F2\", react_1.default.createElement(\"span\", {\n    className: \"text-[80%]\"\n  }, \"Masato Hori\")), react_1.default.createElement(\"ul\", {\n    className: \"flex flex-col gap-y-2 pl-2\"\n  }, profList.map(function (prof, i) {\n    return react_1.default.createElement(\"li\", {\n      className: \"flex flex-col\",\n      key: \"prof-item_\".concat(i)\n    }, react_1.default.createElement(\"span\", {\n      className: \"font-semibold md:font-bold\"\n    }, prof.title), react_1.default.createElement(\"span\", {\n      className: \"pl-[1em] break-keep\"\n    }, prof.value));\n  })));\n};\nexports.Profile = Profile;\n\n//# sourceURL=webpack://profile/./src/components/profile.tsx?");
+eval("\n\nvar __importDefault = this && this.__importDefault || function (mod) {\n  return mod && mod.__esModule ? mod : {\n    \"default\": mod\n  };\n};\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nexports.Profile = void 0;\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nvar main_img2_JPG_1 = __importDefault(__webpack_require__(/*! ../../images/main_img2.JPG */ \"./images/main_img2.JPG\"));\nvar profList = [{\n  title: '誕生日',\n  value: '10月18日'\n}, {\n  title: '血液型',\n  value: 'O型'\n}, {\n  title: '身長',\n  value: '173cm'\n}, {\n  title: '出身地',\n  value: '静岡県'\n}, {\n  title: '方言',\n  value: '遠州弁'\n}, {\n  title: '特技',\n  value: 'Web制作、麻雀、テニス、クレーンゲーム（橋渡し）'\n}, {\n  title: '趣味・好きなこと',\n  value: '寺社巡り・御朱印集め、カメラ、登山、キャンプ、料理、古着探し、ボルダリング、バスケ、スキー、スノボー、映像作品鑑賞、モンスト、マリカー'\n}];\n// TODO: 背景追加したい（下部予定）\nvar Profile = function () {\n  return react_1.default.createElement(\"div\", {\n    className: \"flex flex-col gap-y-6\"\n  }, react_1.default.createElement(\"img\", {\n    src: main_img2_JPG_1.default,\n    className: \"w-full h-auto\",\n    width: 343,\n    height: 257,\n    alt: \"\"\n  }), react_1.default.createElement(\"h3\", {\n    className: \"flex flex-col text-[1.5rem] font-semibold md:font-bold\"\n  }, \"\\u5800 \\u771F\\u54F2\", react_1.default.createElement(\"span\", {\n    className: \"text-[80%]\"\n  }, \"Masato Hori\")), react_1.default.createElement(\"ul\", {\n    className: \"flex flex-col gap-y-2 pl-2\"\n  }, profList.map(function (prof, i) {\n    return react_1.default.createElement(\"li\", {\n      className: \"flex flex-col\",\n      key: \"prof-item_\".concat(i)\n    }, react_1.default.createElement(\"span\", {\n      className: \"font-semibold md:font-bold\"\n    }, prof.title), react_1.default.createElement(\"span\", {\n      className: \"pl-[1em] break-keep\"\n    }, prof.value));\n  })));\n};\nexports.Profile = Profile;\n\n//# sourceURL=webpack://profile/./src/components/profile.tsx?");
 
 /***/ }),
 
@@ -248,6 +248,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"images/img_tamagawa.JPG\");\n\n//# sourceURL=webpack://profile/./images/img_tamagawa.JPG?");
+
+/***/ }),
+
+/***/ "./images/main_img2.JPG":
+/*!******************************!*\
+  !*** ./images/main_img2.JPG ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"images/main_img2.JPG\");\n\n//# sourceURL=webpack://profile/./images/main_img2.JPG?");
 
 /***/ }),
 
